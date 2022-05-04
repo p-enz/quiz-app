@@ -6,5 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Quiz-App</h1>
+    </header>
+    <main>
+      <section class="question">
+        <h2>Question</h2>
+        <img src="images/bookmark-outline.svg" alt="Logo Bookmarked" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
+          debitis aperiam sunt odio iusto ipsum dolorum. Animi libero atque
+          tempora!
+        </p>
+        <form>
+          <fieldset>
+            <legend>To Show The Correct Answer Click</legend>
+            <input type="button" name="showAnswer" value="Check Answer" />
+            <output name="correctAnswer" aria-label="Displays Correct Answer"
+              >Placeholder</output
+            >
+          </fieldset>
+        </form>
+      </section>
+      <article>
+        <form>
+          <fieldset>
+            <legend>Type Your Answer In The Box</legend>
+            <label for="userAnswer">Put Your Guess Here: </label>
+            <input
+              type="text"
+              name="answer"
+              id="userAnswer"
+              aria-label="Input Field Answer"
+            />
+          </fieldset>
+        </form>
+      </article>
+
+      <section>
+        <h3>More like this Question</h3>
+        <!--
+             Idea with Buttons ?? 
+        -->
+        <form>
+          <input type="button" name="tag" id="tagA" value="A" disabled />
+          <input type="button" name="tag" id="tagB" value="B" disabled />
+          <input type="button" name="tag" id="tagC" value="C" />
+          <input type="button" name="tag" id="tagD" value="D" />
+          <a href="http://google.de" target="_blanck"
+            ><input type="button" value="#TAG"
+          /></a>
+        </form>
+        <!-- With a-tags -->
+        <a href="http://">#I</a>
+        <a href="http://">#Never </a>
+        <a href="">#Gonna</a>
+        <a href="http://">#You</a>
+        <a href="http://">#Up </a>
+      </section>
+    </main>
+  </body>
 </html>
