@@ -1,3 +1,4 @@
+@import url(./navLogo.css);
 .navbar {
   position: fixed;
   bottom: 0;
@@ -7,4 +8,6 @@
   background-color: var(--color-background);
   color: var(--color-text);
   border: 0.125em solid var(--color-accent);
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
 }

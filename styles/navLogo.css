@@ -1,0 +1,6 @@
+.navLogo {
+  width: 2em;
+  height: 2em;
+  padding: 0.5em;
+  background: var(--color-cat);
+}
