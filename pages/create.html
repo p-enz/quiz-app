@@ -6,5 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create a new Question</title>
   </head>
-  <body></body>
+  <body>
+    <header><h1>Create New Question</h1></header>
+    <main>
+      <section>
+        <form>
+          <label for="inQuestion">Add Your Question Here</label>
+          <input
+            type="text"
+            name="inQuestion"
+            id="inQuestion"
+            placeholder="Tap To Type"
+            required
+          />
+          <label for="inAnswer">Add Your Answer Here</label>
+          <input
+            type="text"
+            name="inAnswer"
+            id="inAnswer"
+            placeholder="Tap To Type"
+          />
+          <label for="inTags">Add Questions Tags Here Divide by Comma </label>
+          <input
+            type="text"
+            name="inTags"
+            id="inTags"
+            placeholder="Tag1, Tag2, Tag3,"
+          />
+          <label for="btnAddIt">Click Here To Add</label>
+          <input type="submit" value="Click me" id="btnAddIt" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <img src="../images/home-circle.svg" alt="To Homescreen Icon" />Home
+          </li>
+          <li>
+            <img
+              src="../images/bookmark-outline.svg"
+              alt="To Bookmark Items Icon"
+            />Bookmarks
+          </li>
+          <li>
+            <img
+              src="../images/new_question.svg"
+              alt="To Add New Questions Icon"
+            />New Question
+          </li>
+          <li>
+            <img
+              src="../images/account-circle.svg"
+              alt="To Your Profile Icon"
+            />Profile
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
