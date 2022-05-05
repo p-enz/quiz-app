@@ -1,0 +1,12 @@
+.card {
+  border: 0.25em solid var(--color-accent);
+  background: var(--color-background);
+  color: var(--color-text);
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em;
+}
+.card h2,
+h3 {
+  text-decoration: underline var(--color-accent) 0.125em;
+}
