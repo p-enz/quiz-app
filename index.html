@@ -11,7 +11,37 @@
       <h1>Quiz-App</h1>
     </header>
     <main>
-      <section class="question">
+      <!---------------- First Card ---------------->
+      <section class="card">
+        <h2>Question</h2>
+        <img
+          src="images/bookmark-outline.svg"
+          alt="Logo Bookmarked"
+          class="logo"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
+          debitis aperiam sunt odio iusto ipsum dolorum. Animi libero atque
+          tempora!
+        </p>
+        <form>
+          <input
+            type="button"
+            name="showAnswer"
+            value="Check Answer"
+            class="showAnswer"
+          />
+        </form>
+        <h3>More like this Question</h3>
+        <a href="http://" class="tags">#I</a>
+        <a href="http://" class="tags">#Never </a>
+        <a href="" class="tags">#Gonna</a>
+        <a href="http://" class="tags">#You</a>
+        <a href="http://" class="tags">#Up </a>
+      </section>
+      <!---------------- Second Card ---------------->
+      <section class="card">
         <h2>Question</h2>
         <img src="images/bookmark-outline.svg" alt="Logo Bookmarked" />
         <p>
@@ -21,45 +51,30 @@
           tempora!
         </p>
         <form>
-          <fieldset>
-            <legend>To Show The Correct Answer Click</legend>
-            <input type="button" name="showAnswer" value="Check Answer" />
-            <output name="correctAnswer" aria-label="Displays Correct Answer"
-              >Placeholder</output
-            >
-          </fieldset>
+          <input type="button" name="showAnswer" value="Check Answer" />
         </form>
-      </section>
-      <article>
-        <form>
-          <fieldset>
-            <legend>Type Your Answer In The Box</legend>
-            <label for="userAnswer">Put Your Guess Here: </label>
-            <input
-              type="text"
-              name="answer"
-              id="userAnswer"
-              aria-label="Input Field Answer"
-            />
-          </fieldset>
-        </form>
-      </article>
-
-      <section>
         <h3>More like this Question</h3>
-        <!--
-             Idea with Buttons ?? 
-        -->
+        <a href="http://">#I</a>
+        <a href="http://">#Never </a>
+        <a href="">#Gonna</a>
+        <a href="http://">#You</a>
+        <a href="http://">#Up </a>
+      </section>
+
+      <!---------------- Third Card ---------------->
+      <section class="card">
+        <h2>Question</h2>
+        <img src="images/bookmark-outline.svg" alt="Logo Bookmarked" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
+          debitis aperiam sunt odio iusto ipsum dolorum. Animi libero atque
+          tempora!
+        </p>
         <form>
-          <input type="button" name="tag" id="tagA" value="A" disabled />
-          <input type="button" name="tag" id="tagB" value="B" disabled />
-          <input type="button" name="tag" id="tagC" value="C" />
-          <input type="button" name="tag" id="tagD" value="D" />
-          <a href="http://google.de" target="_blanck"
-            ><input type="button" value="#TAG"
-          /></a>
+          <input type="button" name="showAnswer" value="Check Answer" />
         </form>
-        <!-- With a-tags -->
+        <h3>More like this Question</h3>
         <a href="http://">#I</a>
         <a href="http://">#Never </a>
         <a href="">#Gonna</a>
@@ -67,5 +82,32 @@
         <a href="http://">#Up </a>
       </section>
     </main>
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <img src="images/home-circle.svg" alt="To Homescreen Icon" />Home
+          </li>
+          <li>
+            <img
+              src="images/bookmark-outline.svg"
+              alt="To Bookmark Items Icon"
+            />Bookmarks
+          </li>
+          <li>
+            <img
+              src="images/new_question.svg"
+              alt="To Add New Questions Icon"
+            />New Question
+          </li>
+          <li>
+            <img
+              src="images/account-circle.svg"
+              alt="To Your Profile Icon"
+            />Profile
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
