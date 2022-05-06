@@ -1,0 +1,15 @@
+@import url(styles/card.css);
+@import url(styles/footer.css);
+* {
+  display: border-box;
+}
+:root {
+  --color-accent: #a6728a;
+  --color-cat: #7997f2;
+  --color-background: #203740;
+  --color-foreground: #40736e;
+  --color-text: #41a664;
+}
+body {
+  background: var(--color-foreground);
+}

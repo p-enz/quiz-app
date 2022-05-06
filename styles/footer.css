@@ -7,7 +7,5 @@
   height: 8vh;
   background-color: var(--color-background);
   color: var(--color-text);
-  border: 0.125em solid var(--color-accent);
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
+  border: 1px solid var(--color-accent);
 }

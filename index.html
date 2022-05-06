@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Main Page</title>
   </head>
   <body>
@@ -37,6 +38,7 @@
         <a href="http://" class="tags">#I</a>
         <a href="http://" class="tags">#Never </a>
         <a href="" class="tags">#Gonna</a>
+        <a href="" class="tags">#Give</a>
         <a href="http://" class="tags">#You</a>
         <a href="http://" class="tags">#Up </a>
       </section>
@@ -54,11 +56,12 @@
           <input type="button" name="showAnswer" value="Check Answer" />
         </form>
         <h3>More like this Question</h3>
-        <a href="http://">#I</a>
-        <a href="http://">#Never </a>
-        <a href="">#Gonna</a>
-        <a href="http://">#You</a>
-        <a href="http://">#Up </a>
+        <a href="http://" class="tags">#I</a>
+        <a href="http://" class="tags">#Never </a>
+        <a href="" class="tags">#Gonna</a>
+        <a href="" class="tags">#Give</a>
+        <a href="http://" class="tags">#You</a>
+        <a href="http://" class="tags">#Up </a>
       </section>
 
       <!---------------- Third Card ---------------->
@@ -75,11 +78,12 @@
           <input type="button" name="showAnswer" value="Check Answer" />
         </form>
         <h3>More like this Question</h3>
-        <a href="http://">#I</a>
-        <a href="http://">#Never </a>
-        <a href="">#Gonna</a>
-        <a href="http://">#You</a>
-        <a href="http://">#Up </a>
+        <a href="http://" class="tags">#I</a>
+        <a href="http://" class="tags">#Never </a>
+        <a href="" class="tags">#Gonna</a>
+        <a href="" class="tags">#Give</a>
+        <a href="http://" class="tags">#You</a>
+        <a href="http://" class="tags">#Up </a>
       </section>
       <!---------------- Fourth Card ---------------->
       <section class="card">
@@ -95,38 +99,42 @@
           <input type="button" name="showAnswer" value="Check Answer" />
         </form>
         <h3>More like this Question</h3>
-        <a href="http://">#I</a>
-        <a href="http://">#Never </a>
-        <a href="">#Gonna</a>
-        <a href="http://">#You</a>
-        <a href="http://">#Up </a>
+        <a href="http://" class="tags">#I</a>
+        <a href="http://" class="tags">#Never </a>
+        <a href="" class="tags">#Gonna</a>
+        <a href="" class="tags">#Give</a>
+        <a href="http://" class="tags">#You</a>
+        <a href="http://" class="tags">#Up </a>
       </section>
     </main>
     <footer>
       <nav class="navbar">
-        <ul>
-          <li>
-            <img src="images/home-circle.svg" alt="To Homescreen Icon" />Home
-          </li>
-          <li>
-            <img
-              src="images/bookmark-outline.svg"
-              alt="To Bookmark Items Icon"
-            />Bookmarks
-          </li>
-          <li>
-            <img
-              src="images/new_question.svg"
-              alt="To Add New Questions Icon"
-            />New Question
-          </li>
-          <li>
-            <img
-              src="images/account-circle.svg"
-              alt="To Your Profile Icon"
-            />Profile
-          </li>
-        </ul>
+        <a href="index.html" aria-label="Link To Mainpage"
+          ><img
+            src="images/home-circle.svg"
+            alt="To Homescreen Icon"
+            class="navLogo navHome posAbsolute"
+        /></a>
+        <a href="pages/bookmark.html" aria-label="Link To Bookmarks"
+          ><img
+            src="images/bookmark-outline.svg"
+            alt="To Bookmark Items Icon"
+            class="navLogo navBookmark posAbsolute"
+        /></a>
+        <a href="pages/create.html" aria-label="Link To Add A New Question">
+          <img
+            src="images/new_question.svg"
+            alt="To Add New Questions Icon"
+            class="navLogo navQuestion posAbsolute"
+          />
+        </a>
+        <a href="pages/profile.html" aria-label="Link To Your Profile">
+          <img
+            src="images/account-circle.svg"
+            alt="To Your Profile Icon"
+            class="navLogo navProfile posAbsolute"
+          />
+        </a>
       </nav>
     </footer>
   </body>
