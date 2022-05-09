@@ -1,0 +1,30 @@
+.card {
+  border: 0.25em solid var(--color-accent);
+  background: var(--color-background);
+  color: var(--color-text);
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em;
+  position: relative;
+}
+.card h2,
+h3 {
+  text-decoration: underline var(--color-accent) 0.125em;
+}
+
+.card__logo {
+  height: 3.5em;
+  width: 3.5em;
+  color: black;
+  position: absolute;
+  top: -1em;
+  right: 1em;
+}
+
+.card__tags {
+  text-decoration: none;
+  color: var(--color-cat);
+  padding: 0 1em;
+  border: 1px solid var(--color-accent);
+  border-radius: 20px;
+}

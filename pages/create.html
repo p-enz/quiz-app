@@ -9,7 +9,7 @@
   <body>
     <header><h1>Create New Question</h1></header>
     <main>
-      <section>
+      <section class="create">
         <form>
           <label for="inQuestion">Add Your Question Here</label>
           <input
@@ -17,6 +17,7 @@
             name="inQuestion"
             id="inQuestion"
             placeholder="Tap To Type"
+            class="create__questionInsert"
             required
           />
           <label for="inAnswer">Add Your Answer Here</label>
@@ -25,6 +26,8 @@
             name="inAnswer"
             id="inAnswer"
             placeholder="Tap To Type"
+            class="create__answerInsert"
+            required
           />
           <label for="inTags">Add Questions Tags Here Divide by Comma </label>
           <input
@@ -32,37 +35,41 @@
             name="inTags"
             id="inTags"
             placeholder="Tag1, Tag2, Tag3,"
+            class="create__tagsInsert"
           />
           <label for="btnAddIt">Click Here To Add</label>
-          <input type="submit" value="Click me" id="btnAddIt" />
+          <button class="create__submitBtn">Bestätigen</button>
         </form>
       </section>
     </main>
     <footer>
-      <nav class="navbar">
-        <ul>
-          <li>
-            <img src="../images/home-circle.svg" alt="To Homescreen Icon" />Home
-          </li>
-          <li>
-            <img
-              src="../images/bookmark-outline.svg"
-              alt="To Bookmark Items Icon"
-            />Bookmarks
-          </li>
-          <li>
-            <img
-              src="../images/new_question.svg"
-              alt="To Add New Questions Icon"
-            />New Question
-          </li>
-          <li>
-            <img
-              src="../images/account-circle.svg"
-              alt="To Your Profile Icon"
-            />Profile
-          </li>
-        </ul>
+      <nav class="navBar">
+        <a href="index.html" aria-label="Go To Mainpage"
+          ><img
+            src="images/home-circle.svg"
+            alt="To Homescreen Icon"
+            class="navBar__logo"
+        /></a>
+        <a href="pages/bookmark.html" aria-label="Go To Bookmarks"
+          ><img
+            src="images/bookmark-outline.svg"
+            alt="To Bookmark Items Icon"
+            class="navBar__logo"
+        /></a>
+        <a href="pages/create.html" aria-label="Go To Add A New Question">
+          <img
+            src="images/new_question.svg"
+            alt="To Add New Questions Icon"
+            class="navBar__logo"
+          />
+        </a>
+        <a href="pages/profile.html" aria-label="Go To Your Profile">
+          <img
+            src="images/account-circle.svg"
+            alt="To Your Profile Icon"
+            class="navBar__logo"
+          />
+        </a>
       </nav>
     </footer>
   </body>

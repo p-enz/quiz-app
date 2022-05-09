@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
     <title>Main Page</title>
   </head>
   <body>
@@ -14,10 +16,73 @@
       <!---------------- First Card ---------------->
       <section class="card">
         <h2>Question</h2>
+        <svg class="card__logo" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+          />
+        </svg>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
+          debitis aperiam sunt odio iusto ipsum dolorum. Animi libero atque
+          tempora!
+        </p>
+        <form>
+          <input
+            type="button"
+            name="showAnswer"
+            value="Check Answer"
+            class="card__showAnswer"
+          />
+        </form>
+        <h3>More like this Question</h3>
+        <a href="http://" class="card__tags">#I</a>
+        <a href="http://" class="card__tags">#Never </a>
+        <a href="" class="card__tags">#Gonna</a>
+        <a href="" class="card__tags">#Give</a>
+        <a href="http://" class="card__tags">#You</a>
+        <a href="http://" class="card__tags">#Up </a>
+      </section>
+      <!---------------- Second Card ---------------->
+      <section class="card">
+        <h2>Question</h2>
+        <svg class="card__logo" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+          />
+        </svg>
+        <p></p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
+          debitis aperiam sunt odio iusto ipsum dolorum. Animi libero atque
+          tempora!
+        </p>
+        <form>
+          <input
+            type="button"
+            name="showAnswer"
+            value="Check Answer"
+            class="card__showAnswer"
+          />
+        </form>
+        <h3>More like this Question</h3>
+        <a href="http://" class="card__tags">#I</a>
+        <a href="http://" class="card__tags">#Never </a>
+        <a href="" class="card__tags">#Gonna</a>
+        <a href="" class="card__tags">#Give</a>
+        <a href="http://" class="card__tags">#You</a>
+        <a href="http://" class="card__tags">#Up </a>
+      </section>
+      <!---------------- Third Card ---------------->
+      <section class="card">
+        <h2>Question</h2>
         <img
           src="images/bookmark-outline.svg"
           alt="Logo Bookmarked"
-          class="logo"
+          class="card__logo"
         />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
@@ -30,61 +95,25 @@
             type="button"
             name="showAnswer"
             value="Check Answer"
-            class="showAnswer"
+            class="card__showAnswer"
           />
         </form>
         <h3>More like this Question</h3>
-        <a href="http://" class="tags">#I</a>
-        <a href="http://" class="tags">#Never </a>
-        <a href="" class="tags">#Gonna</a>
-        <a href="http://" class="tags">#You</a>
-        <a href="http://" class="tags">#Up </a>
-      </section>
-      <!---------------- Second Card ---------------->
-      <section class="card">
-        <h2>Question</h2>
-        <img src="images/bookmark-check.svg"Logo Bookmarked" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
-          debitis aperiam sunt odio iusto ipsum dolorum. Animi libero atque
-          tempora!
-        </p>
-        <form>
-          <input type="button" name="showAnswer" value="Check Answer" />
-        </form>
-        <h3>More like this Question</h3>
-        <a href="http://">#I</a>
-        <a href="http://">#Never </a>
-        <a href="">#Gonna</a>
-        <a href="http://">#You</a>
-        <a href="http://">#Up </a>
-      </section>
-
-      <!---------------- Third Card ---------------->
-      <section class="card">
-        <h2>Question</h2>
-        <img src="images/bookmark-outline.svg" alt="Logo Bookmarked" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
-          debitis aperiam sunt odio iusto ipsum dolorum. Animi libero atque
-          tempora!
-        </p>
-        <form>
-          <input type="button" name="showAnswer" value="Check Answer" />
-        </form>
-        <h3>More like this Question</h3>
-        <a href="http://">#I</a>
-        <a href="http://">#Never </a>
-        <a href="">#Gonna</a>
-        <a href="http://">#You</a>
-        <a href="http://">#Up </a>
+        <a href="http://" class="card__tags">#I</a>
+        <a href="http://" class="card__tags">#Never </a>
+        <a href="" class="card__tags">#Gonna</a>
+        <a href="" class="card__tags">#Give</a>
+        <a href="http://" class="card__tags">#You</a>
+        <a href="http://" class="card__tags">#Up </a>
       </section>
       <!---------------- Fourth Card ---------------->
       <section class="card">
         <h2>Question</h2>
-        <img src="images/bookmark-check.svg" alt="Logo Bookmarked" />
+        <img
+          src="images/bookmark-outline.svg"
+          alt="Logo Bookmarked"
+          class="card__logo"
+        />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
           earum, perferendis tenetur fugit ad rem hic itaque inventore, dolores
@@ -92,41 +121,50 @@
           tempora!
         </p>
         <form>
-          <input type="button" name="showAnswer" value="Check Answer" />
+          <input
+            type="button"
+            name="showAnswer"
+            value="Check Answer"
+            class="card__showAnswer"
+          />
         </form>
         <h3>More like this Question</h3>
-        <a href="http://">#I</a>
-        <a href="http://">#Never </a>
-        <a href="">#Gonna</a>
-        <a href="http://">#You</a>
-        <a href="http://">#Up </a>
+        <a href="http://" class="card__tags">#I</a>
+        <a href="http://" class="card__tags">#Never </a>
+        <a href="" class="card__tags">#Gonna</a>
+        <a href="" class="card__tags">#Give</a>
+        <a href="http://" class="card__tags">#You</a>
+        <a href="http://" class="card__tags">#Up </a>
       </section>
     </main>
     <footer>
-      <nav class="navbar">
-        <ul>
-          <li>
-            <img src="images/home-circle.svg" alt="To Homescreen Icon" />Home
-          </li>
-          <li>
-            <img
-              src="images/bookmark-outline.svg"
-              alt="To Bookmark Items Icon"
-            />Bookmarks
-          </li>
-          <li>
-            <img
-              src="images/new_question.svg"
-              alt="To Add New Questions Icon"
-            />New Question
-          </li>
-          <li>
-            <img
-              src="images/account-circle.svg"
-              alt="To Your Profile Icon"
-            />Profile
-          </li>
-        </ul>
+      <nav class="navBar">
+        <a href="index.html" aria-label="Go To Mainpage"
+          ><img
+            src="images/home-circle.svg"
+            alt="To Homescreen Icon"
+            class="navBar__logo"
+        /></a>
+        <a href="pages/bookmark.html" aria-label="Go To Bookmarks"
+          ><img
+            src="images/bookmark-outline.svg"
+            alt="To Bookmark Items Icon"
+            class="navBar__logo"
+        /></a>
+        <a href="pages/create.html" aria-label="Go To Add A New Question">
+          <img
+            src="images/new_question.svg"
+            alt="To Add New Questions Icon"
+            class="navBar__logo"
+          />
+        </a>
+        <a href="pages/profile.html" aria-label="Go To Your Profile">
+          <img
+            src="images/account-circle.svg"
+            alt="To Your Profile Icon"
+            class="navBar__logo"
+          />
+        </a>
       </nav>
     </footer>
   </body>
