@@ -1,11 +1,22 @@
 @import url(./navLogo.css);
-.navbar {
+.navBar {
   position: fixed;
   bottom: 0;
   right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
   width: 100vw;
   height: 8vh;
   background-color: var(--color-background);
   color: var(--color-text);
+  border: 1px solid var(--color-accent);
+}
+
+.navBar__logo {
+  width: 5em;
+  height: 5em;
+  margin-top: 0.25em;
+  background: var(--color-cat);
   border: 1px solid var(--color-accent);
 }
