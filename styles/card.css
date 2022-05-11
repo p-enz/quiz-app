@@ -20,6 +20,9 @@ h3 {
   top: -1em;
   right: 1em;
 }
+.card__logo--isMarked {
+  color: hotpink;
+}
 
 .card__tags {
   text-decoration: none;

@@ -5,11 +5,27 @@
   box-sizing: border-box;
 }
 :root {
+  /*
+    TODO: change color template and rename vars 
+  */
   --color-accent: #a6728a;
   --color-cat: #7997f2;
   --color-background: #203740;
   --color-foreground: #40736e;
   --color-text: #41a664;
+
+  /*
+  #383838
+  #066163
+  #CDBE78
+  #F2F2F2
+
+  ---
+  #EDE6DB
+  #417D7A
+  #1D5C63
+  #1A3C40
+  */
 }
 body {
   background: var(--color-foreground);
