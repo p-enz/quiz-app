@@ -1,0 +1,42 @@
+.card {
+  background: var(--color-background);
+  color: var(--color-text);
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em;
+  position: relative;
+}
+
+.card__logo {
+  height: 3.5em;
+  width: 3.5em;
+  color: var(--color-cat);
+  position: absolute;
+  top: -1em;
+  right: 1em;
+}
+
+.card--visible {
+  display: block;
+}
+
+.card--hide {
+  display: none;
+}
+
+.card__tags {
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-cat);
+  padding: 0 1em;
+  border: 1px solid var(--color-detail);
+  border-radius: 20px;
+}
+
+.card__answerBtn {
+  background-color: var(--color-cat);
+  color: var(--color-text);
+  padding: 1em;
+  border-radius: 25px;
+  border: 2px solid var(--color-detail);
+}

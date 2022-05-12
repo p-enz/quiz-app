@@ -1,0 +1,15 @@
+header {
+  background: var(--color-background);
+  color: var(--color-text);
+  width: 100vw;
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border-bottom: 2px solid var(--color-detail);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
