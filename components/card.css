@@ -16,9 +16,12 @@
   right: 1em;
 }
 
+/*
 .card--visible {
   display: block;
+  color: var(--color-cat);
 }
+*/
 
 .card--hide {
   display: none;
