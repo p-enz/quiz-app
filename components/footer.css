@@ -9,16 +9,20 @@
   align-content: center;
   width: 100vw;
   height: 8vh;
+  padding-top: 1em;
+  border-top: 2px solid var(--color-detail);
   background-color: var(--color-background);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   color: var(--color-text);
-  border: 1px solid var(--color-accent);
 }
 
 .navBar__logo {
   width: 5em;
   height: 5em;
-  margin-top: 0.25em;
-  color: black;
-  background: var(--color-cat);
-  border: 1px solid var(--color-accent);
+  color: var(--color-cat);
+  background-color: var(--color-text);
+  border: 2px solid var(--color-detail);
+  border-radius: 25px;
+  padding: 0.5em;
 }

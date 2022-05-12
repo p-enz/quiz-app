@@ -10,28 +10,26 @@
   /*
     TODO: change color template and rename vars 
   */
-  --color-accent: #a6728a;
-  --color-cat: #7997f2;
-  --color-background: #203740;
-  --color-foreground: #40736e;
-  --color-text: #41a664;
+  --color-background: #383838;
+  --color-cat: #066163;
+  --color-detail: #cdbe78;
+  --color-text: #f2f2f2;
 
-  /*
-  #383838
-  #066163
-  #CDBE78
-  #F2F2F2
-
-  ---
-  #EDE6DB
-  #417D7A
-  #1D5C63
-  #1A3C40
-  */
+  /* maybe?
+ --color1: #EDE6DB;
+ --color2: #417D7A;
+ --color3: #1D5C63;
+ --color4: #1A3C40;
+ */
 }
 
 body {
-  background: var(--color-foreground);
+  background: var(--color-text);
   padding: 0;
   margin: 0;
+}
+
+h1,
+h2 {
+  text-decoration: underline var(--color-detail) 0.125em;
 }

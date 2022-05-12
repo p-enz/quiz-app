@@ -1,5 +1,4 @@
 .card {
-  border: 0.25em solid var(--color-accent);
   background: var(--color-background);
   color: var(--color-text);
   border-radius: 1em;
@@ -8,15 +7,10 @@
   position: relative;
 }
 
-.card h2,
-h3 {
-  text-decoration: underline var(--color-accent) 0.125em;
-}
-
 .card__logo {
   height: 3.5em;
   width: 3.5em;
-  color: black;
+  color: var(--color-cat);
   position: absolute;
   top: -1em;
   right: 1em;
@@ -32,8 +26,17 @@ h3 {
 
 .card__tags {
   text-decoration: none;
-  color: var(--color-cat);
+  color: var(--color-text);
+  background: var(--color-cat);
   padding: 0 1em;
-  border: 1px solid var(--color-accent);
+  border: 1px solid var(--color-detail);
   border-radius: 20px;
+}
+
+.card__answerBtn {
+  background-color: var(--color-cat);
+  color: var(--color-text);
+  padding: 1em;
+  border-radius: 25px;
+  border: 2px solid var(--color-detail);
 }
