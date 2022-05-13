@@ -6,3 +6,6 @@ bookmarkPaths.forEach(path => toggleBookmarkIcon(path));
 
 const questionCards = document.querySelectorAll('.card');
 questionCards.forEach(questionCard => showAnswerOnClick(questionCard));
+
+const pages = document.querySelectorAll('[js-data="page"]');
+console.log(pages);
