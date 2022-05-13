@@ -22,6 +22,9 @@
   color: var(--color-cat);
 }
 */
+.card__answer {
+  color: hotpink;
+}
 
 .card--hide {
   display: none;
