@@ -10,10 +10,18 @@
   /*
     TODO: change color template and rename vars 
   */
+
   --color-background: #383838;
   --color-cat: #066163;
   --color-detail: #cdbe78;
   --color-text: #f2f2f2;
+
+  /*
+  --color-background: #417d7a;
+  --color-cat: #1d5c63;
+  --color-detail: #1a3c40;
+  --color-text: #ede6db;
+  */
 
   /* maybe?
  --color1: #EDE6DB;
@@ -32,4 +40,8 @@ body {
 h1,
 h2 {
   text-decoration: underline var(--color-detail) 0.125em;
+}
+
+.page--hide {
+  display: none;
 }

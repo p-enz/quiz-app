@@ -12,7 +12,7 @@
     <header></header>
     <main>
       <!---------------- Index Page ---------------->
-      <section class="indexPage" id="indexPage" js-data="page">
+      <section class="page indexPage" id="indexPage" js-data="page">
         <h1>Quiz-App</h1>
 
         <!---------------- First Card ---------------->
@@ -126,7 +126,11 @@
       </section>
 
       <!---------------- Bookmark Page  ---------------->
-      <section class="bookmarkPage" id="bookmarkPage" js-data="page">
+      <section
+        class="page bookmarkPage page--hide"
+        id="bookmarkPage"
+        js-data="page"
+      >
         <h1>Bookmarks</h1>
         <!---------------- First Bookmark Card ---------------->
         <section class="card">
@@ -185,7 +189,11 @@
       </section>
 
       <!---------------- Create Page  ---------------->
-      <section class="createPage" id="createPage" js-data="page">
+      <section
+        class="page createPage page--hide"
+        id="createPage"
+        js-data="page"
+      >
         <h1>Create New Question</h1>
         <section class="create">
           <form>
@@ -222,7 +230,11 @@
       </section>
 
       <!---------------- Profile Page  ---------------->
-      <section class="profilePage" id="profilePage" js-data="page">
+      <section
+        class="page profilePage page--hide"
+        id="profilePage"
+        js-data="page"
+      >
         <h1>Your Profile</h1>
         <section class="profile">
           <h2>USERNAME</h2>
@@ -255,7 +267,7 @@
     </main>
     <footer>
       <nav class="navBar">
-        <a href="#indexPage" aria-label="Go To Mainpage"
+        <a href="#indexPage" aria-label="Go To Mainpage" js-data="toIndexPage"
           ><svg
             alt="To Homescreen Icon"
             class="navBar__logo"
@@ -267,7 +279,11 @@
             />
           </svg>
         </a>
-        <a href="#bookmarkPage" aria-label="Go To Bookmarks">
+        <a
+          href="#bookmarkPage"
+          aria-label="Go To Bookmarks"
+          js-data="toBookmarkPage"
+        >
           <svg
             alt="To Bookmark Items Icon"
             class="navBar__logo"
@@ -279,7 +295,11 @@
             />
           </svg>
         </a>
-        <a href="#createPage" aria-label="Go To Add A New Question">
+        <a
+          href="#createPage"
+          aria-label="Go To Add A New Question"
+          js-data="toCreatePage"
+        >
           <svg
             alt="To Add New Questions Icon"
             class="navBar__logo"
@@ -291,7 +311,11 @@
             />
           </svg>
         </a>
-        <a href="#profilePage" aria-label="Go To Your Profile">
+        <a
+          href="#profilePage"
+          aria-label="Go To Your Profile"
+          js-data="toProfilePage"
+        >
           <svg
             alt="To Your Profile Icon"
             class="navBar__logo"
