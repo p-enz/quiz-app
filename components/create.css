@@ -1,0 +1,12 @@
+.create--basicStyles {
+  width: 100vw;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-size: larger;
+}
+
+.create--labelStyle {
+  font-size: larger;
+}

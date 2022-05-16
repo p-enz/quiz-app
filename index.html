@@ -197,34 +197,46 @@
         <h1>Create New Question</h1>
         <section class="create">
           <form>
-            <label for="inQuestion">Add Your Question Here</label>
+            <label
+              class="create__questionLabel create--labelStyle"
+              for="inQuestion"
+              >Add Your Question Here</label
+            >
             <input
               type="text"
               name="inQuestion"
               id="inQuestion"
               placeholder="Tap To Type"
-              class="create__questionInsert"
+              class="create__questionInsert create--basicStyles"
               required
             />
-            <label for="inAnswer">Add Your Answer Here</label>
+            <label class="create__answerLabel create--labelStyle" for="inAnswer"
+              >Add Your Answer Here</label
+            >
             <input
               type="text"
               name="inAnswer"
               id="inAnswer"
               placeholder="Tap To Type"
-              class="create__answerInsert"
+              class="create__answerInsert create--basicStyles"
               required
             />
-            <label for="inTags">Add Questions Tags Here Divide by Comma </label>
+            <label class="create__tagsLabel create--labelStyle" for="inTags"
+              >Add Questions Tags Here Divide by Comma
+            </label>
             <input
               type="text"
               name="inTags"
               id="inTags"
               placeholder="Tag1, Tag2, Tag3,"
-              class="create__tagsInsert"
+              class="create__tagsInsert create--basicStyles"
             />
-            <label for="btnAddIt">Click Here To Add</label>
-            <button class="create__submitBtn">Bestätigen</button>
+            <label for="btnAddIt" class="create__submit create--labelStyle"
+              >Click Here To Add</label
+            >
+            <button class="create__submitBtn create--basicStyles">
+              Bestätigen
+            </button>
           </form>
         </section>
       </section>
@@ -267,8 +279,8 @@
     </main>
     <footer>
       <nav class="navBar">
-        <a href="#indexPage" aria-label="Go To Mainpage" js-data="toIndexPage"
-          ><svg
+        <a href="#indexPage" aria-label="Go To Mainpage" js-data="toIndexPage">
+          <svg
             alt="To Homescreen Icon"
             class="navBar__logo"
             viewBox="0 0 24 24"
