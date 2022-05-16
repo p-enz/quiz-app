@@ -9,12 +9,12 @@
     <title>Main Page</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <h1>Quiz-App</h1>
+    </header>
     <main>
       <!---------------- Index Page ---------------->
       <section class="page indexPage" id="indexPage" js-data="page">
-        <h1>Quiz-App</h1>
-
         <!---------------- First Card ---------------->
         <section class="card">
           <h2>Question</h2>
@@ -202,6 +202,7 @@
               for="inQuestion"
               >Add Your Question Here</label
             >
+            <p class="create__questionCharCount"></p>
             <input
               type="text"
               name="inQuestion"
@@ -213,6 +214,7 @@
             <label class="create__answerLabel create--labelStyle" for="inAnswer"
               >Add Your Answer Here</label
             >
+            <p class="create__answerCharCount"></p>
             <input
               type="text"
               name="inAnswer"
